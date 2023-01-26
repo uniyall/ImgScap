@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="../../static/css/index_style.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Scrapper Web App</title>
+</head>
+<body>
+<center><h1> Image Scrapper Web App </h1></center>
+<br>
+
+<center><p> Select from 3 nypost.com webpages. The app scraps the images in the selected webpage and displays them in an html file in a clean manner.</p></center>
+<br>
+
+<form action = '/images' method= 'POST'>
+    <select id = 'Links' name = 'Links'>
+        <option value = "POTY">2022 National Geographic pictures of the year</option>
+        <option value = "NASA">NASA releases amazing new images of the surface of the moon</option>
+        <option value = "FIFA">Moments from FIFA World Cup Qatar 2022</option>
+    </select>
+
+    <center><input type = 'submit' value = 'Submit'></center>
+    <br>
+</form>
+</body>
+</html>
